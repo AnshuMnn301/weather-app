@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Country Component corrcetly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "silver",
+      "borderTopEndRadius": 10,
+      "borderTopStartRadius": 10,
+      "marginLeft": 10,
+      "marginVertical": 5,
+      "paddingTop": 10,
+      "width": "95%",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": undefined,
+      }
+    }
+    style={
+      Object {
+        "height": 100,
+        "resizeMode": "contain",
+        "width": "100%",
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "fontWeight": "bold",
+        "marginVertical": 5,
+      }
+    }
+  />
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Get Weather Forecast
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 10,
+      }
+    }
+  />
+</View>
+`;

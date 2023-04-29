@@ -13,7 +13,6 @@ export default function Country(props: any) {
       `http://api.weatherstack.com/current?access_key=8c483281e15083c4d1a2bb16bccf1736&query=${props.capital}`,
     );
     const data = await resp.json();
-    console.log(data);
     setWatherData(data?.current);
   };
   return (

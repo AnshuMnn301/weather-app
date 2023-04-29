@@ -3,13 +3,12 @@ import {View, FlatList} from 'react-native';
 import Country from '../components/Country';
 import {fetchCountryDetails} from '../utils';
 
-export default function Details({route, navigation}: any) {
+export default function Details({route}: any) {
   const {country} = route.params;
   const [countryDetails, setCountryDetails] = React.useState(null);
   React.useEffect(() => {
     const fetchAsyncWrapper = async (text: string) => {
       const data = await fetchCountryDetails(text);
-      console.log(data);
       setCountryDetails(data);
     };
     fetchAsyncWrapper(country);

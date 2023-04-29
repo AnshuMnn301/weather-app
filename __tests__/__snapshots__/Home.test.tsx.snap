@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Home Component corrcetly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Enter country name"
+    style={
+      Object {
+        "borderBottomColor": "lightgray",
+        "borderBottomWidth": 1,
+        "fontSize": 20,
+        "marginRight": 10,
+        "width": "60%",
+      }
+    }
+    value=""
+  />
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+          Object {},
+        ]
+      }
+    >
+      <Text
+        disabled={true}
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#cdcdcd",
+            },
+          ]
+        }
+      >
+        Search
+      </Text>
+    </View>
+  </View>
+</View>
+`;
